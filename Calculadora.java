@@ -19,39 +19,37 @@ public class Calculadora {
             System.out.println("Selecciona el tipo de operacion: *, /, +, -, %, ^");
             String operation = scanner.next();
 
-            System.out.print("Resultado: ");
+            System.out.println("Resultado: ");
 
             switch (operation) {
-            case "*": 
-                System.out.println(firstNumber * secondNumber); 
+            case "*":
+                System.out.println(firstNumber * secondNumber);
                 break;
-            case "/": 
+            case "/":
                 if(secondNumber != 0){
                     System.out.println(firstNumber / secondNumber);
                 }else{
                     System.out.println("No se puede dividir un numero entre 0");
                 }
                 break;
-            case "+": 
+            case "+":
                 System.out.println(firstNumber + secondNumber);
                 break;
-            case "-": 
-                System.out.println(firstNumber - secondNumber); 
+            case "-":
+                System.out.println(firstNumber - secondNumber);
                 break;
-            case "%": 
-                System.out.println(firstNumber % secondNumber); 
+            case "%":
+                System.out.println(firstNumber % secondNumber);
                 break;
-            case "^": 
-                System.out.println(Math.pow(firstNumber, secondNumber)); 
+            case "^":
+                System.out.println(Math.pow(firstNumber, secondNumber));
                 break;
-            default: System.out.println("Selecciona un caracter valido"); 
+            default: System.out.println("Selecciona un caracter valido");
             }
         }catch(Exception e){
             System.out.println("La calculadora solo acepta numeros");
         }
 
-        
-
         scanner.close();
     }
-} 
+}
