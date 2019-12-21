@@ -44,7 +44,7 @@ public class Calculadora {
             case "^":
                 System.out.println(Math.pow(firstNumbe, secondNumber));
                 break;
-            default: System.out.println("Selecciona una operacion valido");
+            default: System.out.println("Selecciona una operacion valida");
             }
         }catch(Exception e){
             System.out.println("La calculadora solo acepta numeros enteros");
