@@ -29,7 +29,7 @@ public class Calculadora {
                 if(secondNumber != 0){
                     System.out.println(firstNumber / secondNumber);
                 }else{
-                    System.out.println("No se puede dividir un numero entre 0");
+                    System.out.println("Es imposible dividir un numero entre 0");
                 }
                 break;
             case "+":
