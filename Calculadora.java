@@ -42,7 +42,7 @@ public class Calculadora {
                 System.out.println(firstNumber % secondNumber);
                 break;
             case "^":
-                System.out.println(Math.pow(firstNumber, secondNumber));
+                System.out.println(Math.pow(firstNumbe, secondNumber));
                 break;
             default: System.out.println("Selecciona un caracter valido");
             }
