@@ -47,7 +47,7 @@ public class Calculadora {
             default: System.out.println("Selecciona una operacion valido");
             }
         }catch(Exception e){
-            System.out.println("La calculadora solo acepta numeros");
+            System.out.println("La calculadora solo acepta numeros enteros");
         }
 
         scanner.close();
